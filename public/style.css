@@ -18,7 +18,8 @@ p {
 footer {
   background-color: black;
   opacity: .5;
-  bottom: 0
+  bottom: 0;
+  padding: 10px;
 }
 
 footer p {
