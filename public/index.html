@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="angular.min.js" charset="utf-8"></script>
+  <script src="angular-route.min.js" charset="utf-8"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Angular Routes + Bootstrap</title>
+</head>
+
+<body ng-App="kingdomApp">
+  <header>
+    <h1>Awesome Kingdom Hearts Characters!</h1>
+  </header>
+  <div class="container" ng-controller="KingdomController as kc">
+    <div class="row">
+
+      <div class="col-md-12">
+        <button class="btn btn-default" type="submit" ng-click='kc.go("/sora")'>See Sora!</button>
+
+        <button class="btn btn-default" type="submit" ng-click='kc.go("/riku")'>See Riku!</button>
+
+        <button class="btn btn-default" type="submit" ng-click='kc.go("/kairi")'>See Kairi!</button>
+        <ng-view></ng-view>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Coded by Carl Page</p>
+  </footer>
+
+</body>
+
+</html>

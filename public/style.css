@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+
+button {
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  opacity: .5;
+  bottom: 0
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+img {
+  text-align: center;
+}
