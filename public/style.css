@@ -3,11 +3,16 @@ h1 {
 }
 
 button {
+  margin-top: 25px;
   text-align: center;
 }
 
 .row {
   text-align: center;
+}
+
+p {
+  color: black;
 }
 
 footer {
@@ -16,11 +21,13 @@ footer {
   bottom: 0
 }
 
-p {
+footer p {
   text-align: center;
   color: white;
 }
 
 img {
   text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
